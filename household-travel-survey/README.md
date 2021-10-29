@@ -1,11 +1,10 @@
 # Determine Mode Share From South African National Household Travel Data
 
 The functions defined in this notebook are used to process the South African National Household Travel Survey. It allows the cleaning and processing of the NHTS person data. The NHTS data is generally clean and meachine readable, however much of the categorical data has been converted to numercal keys which are only defined in the accompanying meta data and can be difficult to analyse effectively. The following tools allow for easy visualisation of the dataset columns and processing of the data in order to determine modal split per transport analysis zone. The modal split summary produced is formatted to be used for further analysis in the PTV line of software but can be reworked for any 4 step transport modelling activity. It includes the walking, cycling, public and private transport main modes with various activity types and 5 income levels.  It should be read in conjuntion with the metadata files for the NHTS with detailed descriptions of each field.
-The functions defined in this notebook are used to process the South African National Household Travel Survey. It allows the cleaning and processing of the NHTS person data. The NHTS data is generally clean and meachine readable, however much of the categorical data has been converted to numercal keys which are only defined in the accompanying meta data and can be difficult to analyse effectively. The following tools allow for easy visualisation of the dataset columns and processing of the data in order to determine modal split per transport analysis zone. The modal split summary produced is formatted to be used for further analysis in the PTV line of software but can be reworked for any 4 step transport modelling activity. It includes the walking, cycling, public and private transport main modes with various activity types and 5 income levels.  It should be read in conjuntion with the metadata files for the NHTS with detailed descriptions of each field.
 
 ## Examples
 
-Below are a few examples of the exploratory plots. 
+Below are a few examples of the exploratory plots.
 
 
 | **Description** | **Visualisation**|
